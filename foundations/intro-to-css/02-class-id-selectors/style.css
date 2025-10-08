@@ -4,17 +4,16 @@
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
 
+.font-size24 {
+    font-size: 24px;
+}
+
 #e2 {
     color: #2E70FF;
     font-size: 36px;
 }
 
-#e3 {
-    font-size: 24px;
-}
-
 #e4 {
     background-color: #2EFF77;
-    font-size: 24px;
     font-weight: 700;
 }
