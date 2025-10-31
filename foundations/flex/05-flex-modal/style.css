@@ -21,7 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  padding: 15px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .vert {
@@ -29,16 +30,13 @@ body {
   flex-flow: column;
 }
 
-.vert-top {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .buttons {
@@ -56,8 +54,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1 0 auto;
-  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 .close-button {
